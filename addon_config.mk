@@ -20,3 +20,4 @@ meta:
 	ADDON_AUTHOR = Liam Power
 	ADDON_TAGS = "video" "sync"
 	ADDON_URL = http://github.com/burstMembrane/SyncVideo
+
