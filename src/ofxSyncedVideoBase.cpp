@@ -5,6 +5,11 @@ SETUP
  */
 
 ofxSyncedVideoBase::ofxSyncedVideoBase(void) {
+
+#ifdef RPI_4
+  ofLogNotice("ofxSyncedVideoBase::init")
+      << "Running on Raspberry pi 4... Using OMXPlayer direct mode";
+#endif
   // load xml settings if they exist
   // get video data
   try {
