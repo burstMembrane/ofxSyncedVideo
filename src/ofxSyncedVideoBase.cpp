@@ -134,6 +134,7 @@ void ofxSyncedVideoBase::restart() {
   player.restartMovie();
 #else
   player.firstFrame();
+
 #endif
 }
 float ofxSyncedVideoBase::getDuration() {
@@ -170,11 +171,6 @@ void ofxSyncedVideoBase::update() {
 void ofxSyncedVideoBase::draw() {
   // draw the movie
 
-#ifdef RPI_4
-  if (ofGetFrameNum() == 100) {
-    player.createPlayer();
-  }
-#endif
   if (drawMovie)
     player.draw(0, 0, ofGetWidth(), ofGetHeight());
   else

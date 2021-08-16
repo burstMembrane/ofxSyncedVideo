@@ -4,11 +4,11 @@
 #include "ofxXmlSettings.h"
 
 #ifdef TARGET_RASPBERRY_PI
-#include "ofxOMXPlayer.h"
-#endif
-
 #ifdef RPI_4
 #include "ofxRPI4VideoPlayer"
+#endif
+
+#include "ofxOMXPlayer.h"
 #endif
 
 class ofxSyncedVideoBase {
@@ -56,7 +56,7 @@ public:
 
 #ifdef TARGET_RASPBERRY_PI
 #ifdef RPI_4
-  ofxRPI4VideoPlayer player;
+  ofVideoPlayer player;
 #else
   ofxOMXPlayer player;
 #endif
