@@ -45,7 +45,9 @@ void ofxSyncedVideoBase::drawTime() {
 
 float ofxSyncedVideoBase::getPosition() {
 #ifdef TARGET_RASPBERRY_PI
+
   return player.getMediaTime();
+
 #else
   return player.getPosition() * player.getDuration();
 #endif
@@ -167,6 +169,12 @@ void ofxSyncedVideoBase::update() {
 
 void ofxSyncedVideoBase::draw() {
   // draw the movie
+
+#ifdef RPI_4
+  if (ofGetFrameNum() == 100) {
+    player.createPlayer();
+  }
+#endif
   if (drawMovie)
     player.draw(0, 0, ofGetWidth(), ofGetHeight());
   else

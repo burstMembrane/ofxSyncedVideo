@@ -7,6 +7,10 @@
 #include "ofxOMXPlayer.h"
 #endif
 
+#ifdef RPI_4
+#include "ofxRPI4VideoPlayer"
+#endif
+
 class ofxSyncedVideoBase {
 
 public:
@@ -51,7 +55,11 @@ public:
   float videoDuration;
 
 #ifdef TARGET_RASPBERRY_PI
+#ifdef RPI_4
+  ofxRPI4VideoPlayer player;
+#else
   ofxOMXPlayer player;
+#endif
 #else
   ofVideoPlayer player;
 #endif
