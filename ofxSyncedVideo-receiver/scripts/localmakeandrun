@@ -1,0 +1,32 @@
+#!/bin/bash
+
+
+# comment out ofxOMXPlayer in addons.make
+
+
+makeandrun(){
+    # # wait for file to update
+    sleep 0.5 &&
+    # # clean
+    make clean &&
+    # # compile
+    make APPNAME=syncedVideoPlayer-linux64 -j3  &&
+    # # run
+    ./bin/syncedVideoPlayer-linux64
+}
+
+
+
+ADDONS=$(cat addons.make)
+echo $ADDONS
+
+if [[ "$ADDONS" == *"ofxOMXPlayer"* ]]; then
+  echo "ofxOMXPlayer is in addons"
+  sed -i 's/ofxOMXPlayer//g' addons.make
+fi
+
+makeandrun
+
+
+
+

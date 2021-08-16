@@ -1,0 +1,47 @@
+#!/bin/bash
+# uncomment ofxOMXPlayer in addons.make
+
+picompile(){
+    CURRENTDIR=$(pwd)
+
+    # run pimake
+    pimake4  &&
+    CLIENT=pifour.local
+    ping -c 1 $CLIENT
+    pingResponse=$?
+
+    if [ $pingResponse -eq 0 ];then
+        APPNAME=$(basename $CURRENTDIR)"-armv6l"
+        printf 'sending bin/%s to pi...\n' "$APPNAME"
+        ssh pi@stretchpi.local 'sudo killall ' $APPNAME ||
+        # # scp binary to target folder
+
+        ssh pi@$CLIENT "rm /home/pi/$(APPNAME)/"
+        rsync -r bin/ pi@$CLIENT:/home/pi/$APPNAME &&
+        # # run
+        ssh pi@$CLIENT '/home/pi/$(APPNAME)/'$APPNAME
+    else
+        echo "couldn't connect to $CLIENT"
+    fi
+
+
+
+}
+
+# look for ofxOMXPlayer in addons.make
+RESULT=$( grep -e ofxOMXPlayer addons.make )
+
+
+# if it is already present... continute
+if [ -n "$RESULT" ]; then
+    printf '%s\n' "$RESULT"
+    picompile
+    else
+    # otherwise, add it to the addons.make
+    # and compile
+    echo "adding ofxOMXPlayer to addons.make"
+    echo -e "\nofxOMXPlayer"  | tee -a addons.make
+    picompile
+fi
+
+

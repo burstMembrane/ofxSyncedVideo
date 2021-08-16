@@ -1,0 +1,4 @@
+ofxOsc
+ofxSyncedVideo
+ofxXmlSettings
+
