@@ -105,6 +105,25 @@ void ofxSyncedVideoBase::loadDirectory(string folderPath) {
   // set the loop state to on
   player.setLoopState(OF_LOOP_NORMAL);
 #endif
+#ifdef CUSTOM_PIPELINE
+  string pipeline =
+      "filesrc location=" + videoPath + " ! " + " decodebin ! videoconvert ";
+
+  ofLogNotice("ofxSyncedVideoBase::loadDirectory")
+      << "using custom gst pipeline. ";
+
+  gstPlayer = std::make_shared<ofGstVideoPlayer>();
+
+  player.setPlayer(gstPlayer);
+
+  auto gstUtils = gstPlayer->getGstVideoUtils();
+  ofLogNotice("ofxSyncedVideoBase::loadDirectory")
+      << "GstVideoUtils: " << gstUtils;
+
+  gstUtils->setPipeline(pipeline);
+  gstUtils->startPipeline();
+
+#endif
 
   videoDuration = getDuration();
 

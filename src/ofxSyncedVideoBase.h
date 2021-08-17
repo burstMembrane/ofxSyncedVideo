@@ -55,15 +55,18 @@ public:
   float videoDuration;
 
 #ifdef TARGET_RASPBERRY_PI
-#ifdef RPI_4
-  ofVideoPlayer player;
-#else
+
   ofxOMXPlayer player;
-#endif
+
 #else
   ofVideoPlayer player;
+
 #endif
 
+#ifdef CUSTOM_PIPELINE
+  ofGstVideoUtils gst;
+  std::shared_ptr<ofGstVideoPlayer> gstPlayer;
+#endif
   // settings
   string videoPath;
   bool isMaster;

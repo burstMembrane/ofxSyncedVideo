@@ -1,12 +1,15 @@
 {
   "folders": [
-	{
-		"path": ".."
-	},
-	{
-		"path": "../../ofxOMXPlayer"
-	}
-],
+    {
+      "path": ".."
+    },
+    {
+      "path": "../../ofxOMXPlayer"
+    },
+    {
+      "path": "../../../libs/openFrameworks"
+    }
+  ],
   "settings": {
     "files.associations": {
       "*.js": "javascript",

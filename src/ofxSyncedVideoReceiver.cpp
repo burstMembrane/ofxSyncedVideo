@@ -65,7 +65,7 @@ void ofxSyncedVideoReceiver::receiveDraw(ofxOscMessage m) {
     ofLogNotice("ofxSyncedVideoReceiver::receiveDraw")
         << "received /draw message!!!" << shouldDraw;
 #ifdef TARGET_RASPBERRY_PI
-    player.setLayer(shouldDraw);
+    player.setAlpha(shouldDraw);
 #endif
     drawMovie = shouldDraw;
   }
