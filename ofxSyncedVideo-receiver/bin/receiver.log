@@ -1,0 +1,2341 @@
+[notice ] ofxSyncedVideoBase::init: Loading video from data/movies/aitwo.mp4
+[notice ] ofxSyncedVideoReceiver::setupOSC: Setup OSC Client on port: 8000
+
+[notice ] ofxSyncedVideoReceiver::setupOSC: Client is listening: 1
+
+[notice ] didOpenReader: 1
+[notice ] VideoStreamCount(): 1
+[notice ] AudioStreamCount(): 1
+[notice ] CanSeek(): 1
+[notice ] useTexture: 0
+[notice ] COMXVideo::Open - decoder_component(0x0x1173b18), input_port(0x82), output_port(0x83) deinterlace 1 hdmiclocksync 0
+
+Video codec omx-h264 width 1024 height 1024 profile 100 fps 11.718750
+m_config.device PASSED AS omx:hdmi Audio codec aac channels 1 samplerate 24000 bitspersample 16
+[notice ] settings.initialVolume: 0.3 m_Volume: -2399
+[notice ] omxClock.OMXIsPaused(): 1
+[notice ] ofxSyncedVideoBase::loadDirectory: Video Duration: 0
+[notice ] RESUMED[notice ] Current Volume: 0.00dB
+
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.654/0
+
+[notice ] OMXVideo::Decode VDec : setStartTime 0.085000
+
+[notice ] seekToTimeInSeconds: 89
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] COMXVideo::Open error OMX_IndexConfigDisplayRegion error(OMX_ErrorUndefined)
+
+[notice ] Seeked 89000000 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.31,19.37 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] 292 OMX_ErrorNone
+[notice ] 299 OMX_ErrorNone
+[notice ] COMXVideo::PortSettingsChangedLogger - 1024x1024@11.72 interlace:0 deinterlace:0 anaglyph:0 par:inf display:0 layer:0 alpha:255 aspectMode:0
+[notice ] 371 OMX_ErrorNone
+[notice ] 467 OMX_ErrorNone
+[notice ] 470 OMX_ErrorNone
+[notice ] 479 OMX_ErrorNone
+[notice ] 502 OMX_ErrorNone
+[notice ] 515 OMX_ErrorNone
+[notice ] 519 OMX_ErrorNone
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6546/0
+
+[notice ] seekToTimeInSeconds: -17.5074
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000020 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 5.12,1.11 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6552/0
+
+[notice ] seekToTimeInSeconds: 3.91737
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000008 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 21.76,20.57 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6554/0
+
+[notice ] seekToTimeInSeconds: -17.4829
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000165 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 6.70,1.97 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6557/0
+
+[notice ] seekToTimeInSeconds: 3.91391
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89001654 89001000 89001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 21.42,19.97 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.656/0
+
+[notice ] seekToTimeInSeconds: -17.4809
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000036 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 5.12,1.62 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6563/0
+
+[notice ] seekToTimeInSeconds: 3.90571
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000513 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 24.49,20.06 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6567/0
+
+[notice ] seekToTimeInSeconds: -17.478
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000304 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 10.58,2.39 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.657/0
+
+[notice ] seekToTimeInSeconds: 3.9179
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000009 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 25.47,20.57 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6572/0
+
+[notice ] seekToTimeInSeconds: -17.4847
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000004 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 6.96,1.37 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6575/0
+
+[notice ] seekToTimeInSeconds: 3.91333
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000020 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 23.09,20.23 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6578/0
+
+[notice ] seekToTimeInSeconds: -17.4861
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000024 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 8.37,2.22 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6581/0
+
+[notice ] seekToTimeInSeconds: 3.91458
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000032 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 23.13,19.89 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6583/0
+
+[notice ] seekToTimeInSeconds: -17.4902
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000604 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 9.22,2.90 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6589/0
+
+[notice ] seekToTimeInSeconds: 3.88137
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000480 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 23.09,19.54 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6592/0
+
+[notice ] seekToTimeInSeconds: -17.4853
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000550 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 5.81,0.34 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6595/0
+
+[notice ] seekToTimeInSeconds: 3.91039
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000102 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 23.09,19.89 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6604/0
+
+[notice ] seekToTimeInSeconds: -17.4885
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000011 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 5.12,2.82 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6607/0
+
+[notice ] seekToTimeInSeconds: 3.93009
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000011 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 21.08,19.54 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6609/0
+
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] seekToTimeInSeconds: -17.4908
+[notice ] Seeked 89000003 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 5.81,2.05 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6612/0
+
+[notice ] seekToTimeInSeconds: 3.91223
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000001 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 23.09,21.17 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6615/0
+
+[notice ] seekToTimeInSeconds: -17.4822
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000615 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 5.89,2.39 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6618/0
+
+[notice ] seekToTimeInSeconds: 3.9183
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000022 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 20.35,19.37 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6621/0
+
+[notice ] seekToTimeInSeconds: -17.4861
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89006748 89006000 89006000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 8.36,2.90 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6623/0
+
+[notice ] seekToTimeInSeconds: 3.92405
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000142 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 21.51,19.20 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6626/0
+
+[notice ] seekToTimeInSeconds: -17.4853
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000387 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 2.39,0.43 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6629/0
+
+[notice ] seekToTimeInSeconds: 3.9098
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000051 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 20.40,19.71 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6632/0
+
+[notice ] seekToTimeInSeconds: -17.4847
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89001309 89001000 89001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 9.22,3.24 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6635/0
+
+[notice ] seekToTimeInSeconds: 3.91747
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000013 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 20.61,20.14 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6638/0
+
+[notice ] seekToTimeInSeconds: -17.484
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000019 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 7.04,2.22 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6641/0
+
+[notice ] seekToTimeInSeconds: 3.90972
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89003790 89003000 89003000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 21.03,20.74 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6644/0
+
+[notice ] seekToTimeInSeconds: -17.474
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000005 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 5.72,2.22 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6647/0
+
+[notice ] seekToTimeInSeconds: 3.91094
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000103 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 24.58,20.31 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.665/0
+
+[notice ] seekToTimeInSeconds: -17.4858
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89003493 89003000 89003000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 7.89,2.47 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6653/0
+
+[notice ] seekToTimeInSeconds: 3.9173
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000013 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 22.40,19.20 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6655/0
+
+[notice ] seekToTimeInSeconds: -17.4869
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89004267 89004000 89004000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 5.76,0.34 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6658/0
+
+[notice ] seekToTimeInSeconds: 3.89862
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000603 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 21.04,19.97 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6661/0
+
+[notice ] seekToTimeInSeconds: -17.4834
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000009 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 5.81,1.45 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6708/0
+
+[notice ] seekToTimeInSeconds: 3.9101
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000169 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 23.09,20.06 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6712/0
+
+[notice ] seekToTimeInSeconds: -17.4836
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89007633 89007000 89007000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 7.85,0.76 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6717/0
+
+[notice ] seekToTimeInSeconds: 3.92775
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000436 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 19.84,20.65 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6719/0
+
+[notice ] seekToTimeInSeconds: -17.4846
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000384 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 8.54,1.71 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6723/0
+
+[notice ] seekToTimeInSeconds: 3.916
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000090 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 22.40,19.97 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6726/0
+
+[notice ] seekToTimeInSeconds: -17.4857
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000065 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 2.09,0.43 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6729/0
+
+[notice ] seekToTimeInSeconds: 3.90584
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000040 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 20.35,18.86 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6731/0
+
+[notice ] seekToTimeInSeconds: -17.4874
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000744 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 5.12,0.34 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6734/0
+
+[notice ] seekToTimeInSeconds: 3.90993
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000595 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 19.29,19.20 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6737/0
+
+[notice ] seekToTimeInSeconds: -17.4747
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000030 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 1.03,0.94 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.674/0
+
+[notice ] seekToTimeInSeconds: 3.90832
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000004 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.31,18.18 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6743/0
+
+[notice ] seekToTimeInSeconds: -17.4913
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000460 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.48,2.22 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6746/0
+
+[notice ] seekToTimeInSeconds: 3.90844
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000074 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 21.46,20.48 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6749/0
+
+[notice ] seekToTimeInSeconds: -17.4762
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000018 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 1.71,1.28 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6751/0
+
+[notice ] seekToTimeInSeconds: 3.91026
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000874 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 23.09,20.48 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6754/0
+
+[notice ] seekToTimeInSeconds: -17.4852
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89001320 89001000 89001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 6.49,0.85 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6756/0
+
+[notice ] seekToTimeInSeconds: 3.91807
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000221 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 21.72,19.89 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6758/0
+
+[notice ] seekToTimeInSeconds: -17.4867
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89001314 89001000 89001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 7.85,1.45 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6761/0
+
+[notice ] seekToTimeInSeconds: 3.92589
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000914 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 22.40,19.29 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6763/0
+
+[notice ] seekToTimeInSeconds: -17.4855
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000269 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 8.54,1.97 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6766/0
+
+[notice ] seekToTimeInSeconds: 3.91399
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000001 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 21.72,20.48 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6768/0
+
+[notice ] seekToTimeInSeconds: -17.4856
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000541 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 9.22,1.71 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6771/0
+
+[notice ] seekToTimeInSeconds: 3.91319
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000382 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 21.04,19.54 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6774/0
+
+[notice ] seekToTimeInSeconds: -17.485
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000338 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 7.17,2.14 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6776/0
+
+[notice ] seekToTimeInSeconds: 3.90686
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000003 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 23.77,20.82 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6778/0
+
+[notice ] seekToTimeInSeconds: -17.4834
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000006 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 3.76,2.39 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6781/0
+
+[notice ] seekToTimeInSeconds: 3.9101
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89006728 89006000 89006000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.90,17.92 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6783/0
+
+[notice ] seekToTimeInSeconds: -17.4949
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89005206 89005000 89005000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 8.83,2.39 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6786/0
+
+[notice ] seekToTimeInSeconds: 3.91721
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89005499 89005000 89005000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 25.13,20.56 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6788/0
+
+[notice ] seekToTimeInSeconds: -17.478
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000010 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 7.85,1.71 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6791/0
+
+[notice ] seekToTimeInSeconds: 3.9063
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89001195 89001000 89001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.31,17.75 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6796/0
+
+[notice ] seekToTimeInSeconds: -17.5293
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000008 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 6.49,0.43 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6798/0
+
+[notice ] seekToTimeInSeconds: 3.9256
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000804 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.31,17.75 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6806/0
+
+[notice ] seekToTimeInSeconds: -17.5346
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89007561 89007000 89007000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.43,0.93 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6808/0
+
+[notice ] seekToTimeInSeconds: 3.93197
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000011 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.35,17.84 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6811/0
+
+[notice ] seekToTimeInSeconds: -17.488
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89001877 89001000 89001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 7.85,2.05 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6813/0
+
+[notice ] seekToTimeInSeconds: 3.9127
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89001069 89001000 89001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 20.65,20.40 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6816/0
+
+[notice ] seekToTimeInSeconds: -17.4903
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000003 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 7.17,0.94 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  89.6818/0
+
+[notice ] seekToTimeInSeconds: 3.89584
+[notice ] m_omx_reader Seek
+00:01:29 / 00:05:35
+[notice ] Seeked 89000441 89000000 89000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 23.09,20.31 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] EXITING
+[notice ] ofxSyncedVideoBase::init: Loading video from data/movies/aitwo.mp4
+[notice ] ofxSyncedVideoReceiver::setupOSC: Setup OSC Client on port: 8000
+
+[notice ] ofxSyncedVideoReceiver::setupOSC: Client is listening: 1
+
+[notice ] didOpenReader: 1
+[notice ] VideoStreamCount(): 1
+[notice ] AudioStreamCount(): 1
+[notice ] CanSeek(): 1
+[notice ] useTexture: 0
+[notice ] COMXVideo::Open - decoder_component(0x0x1cceb30), input_port(0x82), output_port(0x83) deinterlace 1 hdmiclocksync 0
+
+Video codec omx-h264 width 1024 height 1024 profile 100 fps 11.718750
+m_config.device PASSED AS omx:hdmi Audio codec aac channels 1 samplerate 24000 bitspersample 16
+[notice ] settings.initialVolume: 0.3 m_Volume: -2399
+[notice ] omxClock.OMXIsPaused(): 1
+[notice ] ofxSyncedVideoBase::loadDirectory: Video Duration: 0
+[notice ] Current Volume: 0.00dB
+
+[notice ] RESUMED
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 0.085000
+
+[notice ] COMXVideo::Open error OMX_IndexConfigDisplayRegion error(OMX_ErrorUndefined)
+
+[notice ] 292 OMX_ErrorNone
+[notice ] 299 OMX_ErrorNone
+[notice ] COMXVideo::PortSettingsChangedLogger - 1024x1024@11.72 interlace:0 deinterlace:0 anaglyph:0 par:inf display:0 layer:0 alpha:255 aspectMode:0
+[notice ] 371 OMX_ErrorNone
+[notice ] 467 OMX_ErrorNone
+[notice ] 470 OMX_ErrorNone
+[notice ] 479 OMX_ErrorNone
+[notice ] 502 OMX_ErrorNone
+[notice ] 515 OMX_ErrorNone
+[notice ] 519 OMX_ErrorNone
+[notice ] ofxSyncedVideoReceiver::receiveTransportControls: Received /isPlaying message
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1116/0
+
+[notice ] seekToTimeInSeconds: 91.5945
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95004851 95004000 95004000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 13.67,12.43 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1124/0
+
+[notice ] seekToTimeInSeconds: -11.5974
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95008070 95008000 95008000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.41,2.19 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.113/0
+
+[notice ] seekToTimeInSeconds: 9.90457
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95003563 95003000 95003000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.08,13.28 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1133/0
+
+[notice ] seekToTimeInSeconds: -11.4787
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95001960 95001000 95001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1139/0
+
+[notice ] seekToTimeInSeconds: 9.90085
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95001939 95001000 95001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 16.40,14.57 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1141/0
+
+[notice ] seekToTimeInSeconds: -11.4723
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000093 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,1.85 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1147/0
+
+[notice ] seekToTimeInSeconds: 9.89716
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95001949 95001000 95001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.19,14.57 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.115/0
+
+[notice ] seekToTimeInSeconds: -11.479
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000006 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1155/0
+
+[notice ] seekToTimeInSeconds: 9.89985
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000108 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.77,14.06 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1158/0
+
+[notice ] seekToTimeInSeconds: -11.4768
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95007772 95007000 95007000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,3.38 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1165/0
+
+[notice ] seekToTimeInSeconds: 9.90159
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000009 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.62,14.82 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1167/0
+
+[notice ] seekToTimeInSeconds: -11.4703
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000073 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,0.57 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1172/0
+
+[notice ] seekToTimeInSeconds: 9.89684
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000132 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.77,14.65 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1175/0
+
+[notice ] seekToTimeInSeconds: -11.4803
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000408 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,3.22 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.118/0
+
+[notice ] seekToTimeInSeconds: 9.89833
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000379 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 15.72,14.23 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1182/0
+
+[notice ] seekToTimeInSeconds: -11.4795
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000353 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1187/0
+
+[notice ] seekToTimeInSeconds: 9.89738
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000010 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.90,14.48 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1189/0
+
+[notice ] seekToTimeInSeconds: -11.4666
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000357 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1195/0
+
+[notice ] seekToTimeInSeconds: 9.90238
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000010 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.68,14.65 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1197/0
+
+[notice ] seekToTimeInSeconds: -11.4765
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95003904 95003000 95003000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,3.39 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1203/0
+
+[notice ] seekToTimeInSeconds: 9.90068
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000088 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 19.13,14.40 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1206/0
+
+[notice ] seekToTimeInSeconds: -11.4806
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000413 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,3.05 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1211/0
+
+[notice ] seekToTimeInSeconds: 9.90263
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000053 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.09,14.65 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1214/0
+
+[notice ] seekToTimeInSeconds: -11.4787
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000347 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1219/0
+
+[notice ] seekToTimeInSeconds: 9.90086
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000003 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.09,14.23 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1222/0
+
+[notice ] seekToTimeInSeconds: -11.4837
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000236 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,2.79 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1227/0
+
+[notice ] seekToTimeInSeconds: 9.90166
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000677 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 19.01,14.82 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.123/0
+
+[notice ] seekToTimeInSeconds: -11.4759
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95001519 95001000 95001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,3.22 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1236/0
+
+[notice ] seekToTimeInSeconds: 9.90615
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000745 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.34,14.74 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1239/0
+
+[notice ] seekToTimeInSeconds: -11.4823
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000624 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1291/0
+
+[notice ] seekToTimeInSeconds: 9.90124
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000656 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.09,14.82 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1295/0
+
+[notice ] seekToTimeInSeconds: -11.4737
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000746 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1302/0
+
+[notice ] seekToTimeInSeconds: 9.90016
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95002715 95002000 95002000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 19.81,14.99 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1305/0
+
+[notice ] seekToTimeInSeconds: -11.4635
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000009 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,2.28 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1311/0
+
+[notice ] seekToTimeInSeconds: 9.90598
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95001475 95001000 95001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 16.40,14.57 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1314/0
+
+[notice ] seekToTimeInSeconds: -11.4773
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000011 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,3.47 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.132/0
+
+[notice ] seekToTimeInSeconds: 9.89931
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95001478 95001000 95001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.51,14.48 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1322/0
+
+[notice ] seekToTimeInSeconds: -11.4777
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95007133 95007000 95007000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,3.38 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1328/0
+
+[notice ] seekToTimeInSeconds: 9.90547
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95001266 95001000 95001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 19.00,14.74 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1331/0
+
+[notice ] seekToTimeInSeconds: -11.4793
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000003 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,1.00 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1337/0
+
+[notice ] seekToTimeInSeconds: 9.88714
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95004873 95004000 95004000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.21,14.05 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.134/0
+
+[notice ] seekToTimeInSeconds: -11.4701
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000010 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,0.66 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1343/0
+
+[notice ] seekToTimeInSeconds: 9.9357
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000213 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.02,14.06 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1346/0
+
+[notice ] seekToTimeInSeconds: -11.4804
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000007 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,2.45 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1353/0
+
+[notice ] seekToTimeInSeconds: 9.88606
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000059 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.15,14.48 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1356/0
+
+[notice ] seekToTimeInSeconds: -11.4643
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000003 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1361/0
+
+[notice ] seekToTimeInSeconds: 9.89621
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000161 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.77,14.82 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1364/0
+
+[notice ] seekToTimeInSeconds: -11.4827
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000346 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1371/0
+
+[notice ] [notice m_omx_reader Seek
+00:01:35 / 00:05:35
+] seekToTimeInSeconds: 9.89514
+[notice ] Seeked 95000008 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.13,14.23 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1374/0
+
+[notice ] seekToTimeInSeconds: -11.4805
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000009 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 14.54,14.02 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1384/0
+
+[notice ] seekToTimeInSeconds: 9.91135
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000085 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 16.40,13.97 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1391/0
+
+[notice ] seekToTimeInSeconds: -11.4804
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000002 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,1.60 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1397/0
+
+[notice ] [notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+seekToTimeInSeconds: 9.89632
+[notice ] Seeked 95000008 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.62,14.74 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.14/0
+
+[notice ] seekToTimeInSeconds: -11.4755
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000034 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,2.28 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1406/0
+
+[notice ] seekToTimeInSeconds: 9.90512
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000005 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.96,13.89 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1409/0
+
+[notice ] seekToTimeInSeconds: -11.4842
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000006 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1415/0
+
+[notice ] seekToTimeInSeconds: 9.90975
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000005 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.77,14.31 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1417/0
+
+[notice ] seekToTimeInSeconds: -11.4738
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000008 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,0.49 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.142/0
+
+[notice ] seekToTimeInSeconds: 9.9349
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000009 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.13,14.91 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1423/0
+
+[notice ] seekToTimeInSeconds: -11.4746
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000096 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1429/0
+
+[notice ] [notice ] seekToTimeInSeconds: 9.89805m_omx_reader Seek
+00:01:35 / 00:05:35
+
+[notice ] Seeked 95000012 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.77,15.08 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1432/0
+
+[notice ] [notice ] seekToTimeInSeconds: -11.4692
+m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000002 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1438/0
+
+[notice ] [notice ] seekToTimeInSeconds: 9.8955m_omx_reader Seek
+00:01:35 / 00:05:35
+
+[notice ] Seeked 95000006 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.09,13.37 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1441/0
+
+[notice ] seekToTimeInSeconds: -11.467
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95001990 95001000 95001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1447/0
+
+[notice ] seekToTimeInSeconds: 9.89869
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000010 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.26,13.89 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.145/0
+
+[notice ] seekToTimeInSeconds: -11.4769
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000340 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1455/0
+
+[notice ] seekToTimeInSeconds: 9.89725
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95004534 95004000 95004000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.81,14.31 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1458/0
+
+[notice ] seekToTimeInSeconds: -11.474
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000162 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1464/0
+
+[notice ] seekToTimeInSeconds: 9.90416
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000009 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 21.18,15.16 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1467/0
+
+[notice ] seekToTimeInSeconds: -11.4675
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000005 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1472/0
+
+[notice ] seekToTimeInSeconds: 9.89801
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95005017 95005000 95005000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.81,14.56 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1475/0
+
+[notice ] seekToTimeInSeconds: -11.4815
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95002875 95002000 95002000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1481/0
+
+[notice ] seekToTimeInSeconds: 9.90652
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000848 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.49,13.89 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1484/0
+
+[notice ] seekToTimeInSeconds: -11.4833
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95003725 95003000 95003000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,2.11 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.149/0
+
+[notice ] seekToTimeInSeconds: 9.90635
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000827 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.77,14.48 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1493/0
+
+[notice ] seekToTimeInSeconds: -11.477
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000010 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,2.96 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1499/0
+
+[notice ] seekToTimeInSeconds: 9.88422
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95002628 95002000 95002000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.45,14.65 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1502/0
+
+[notice ] seekToTimeInSeconds: -11.479
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000011 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1507/0
+
+[notice ] seekToTimeInSeconds: 9.90271
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000008 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.81,14.14 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.151/0
+
+[notice ] seekToTimeInSeconds: -11.4697
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000140 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,0.66 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1515/0
+
+[notice ] seekToTimeInSeconds: 9.92928
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95002584 95002000 95002000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 19.81,14.22 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1524/0
+
+[notice ] seekToTimeInSeconds: -11.4779
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000005 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.153/0
+
+[notice ] seekToTimeInSeconds: 9.89985
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000854 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 15.04,13.71 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1533/0
+
+[notice ] seekToTimeInSeconds: -11.4845
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95001688 95001000 95001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1538/0
+
+[notice ] [notice ] seekToTimeInSeconds: 9.89602m_omx_reader Seek
+00:01:35 / 00:05:35
+
+[notice ] Seeked 95000007 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 19.13,15.16 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1541/0
+
+[notice ] seekToTimeInSeconds: -11.4788
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000002 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,1.51 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1547/0
+
+[notice ] seekToTimeInSeconds: 9.88764
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000005 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.21,15.51 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1549/0
+
+[notice ] seekToTimeInSeconds: -11.4731
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95001440 95001000 95001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1555/0
+
+[notice ] seekToTimeInSeconds: 9.9012
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000003 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.81,14.57 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1557/0
+
+[notice ] seekToTimeInSeconds: -11.4791
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95001133 95001000 95001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1562/0
+
+[notice ] seekToTimeInSeconds: 9.90118
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000817 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 14.57,13.63 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1564/0
+
+[notice ] seekToTimeInSeconds: -11.4703
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95002603 95002000 95002000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1569/0
+
+[notice ] seekToTimeInSeconds: 9.90322
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95007187 95007000 95007000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.12,14.48 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1572/0
+
+[notice ] seekToTimeInSeconds: -11.4713
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000011 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1577/0
+
+[notice ] seekToTimeInSeconds: 9.89642
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95001003 95001000 95001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 15.04,13.20 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1579/0
+
+[notice ] seekToTimeInSeconds: -11.4685
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000729 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,3.22 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1584/0
+
+[notice ] seekToTimeInSeconds: 9.89467
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95001640 95001000 95001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 16.40,14.57 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1587/0
+
+[notice ] seekToTimeInSeconds: -11.481
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000002 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1591/0
+
+[notice ] seekToTimeInSeconds: 9.89781
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95002219 95002000 95002000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 16.40,14.31 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1594/0
+
+[notice ] seekToTimeInSeconds: -11.4841
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000008 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,0.83 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1599/0
+
+[notice ] seekToTimeInSeconds: 9.8921
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000012 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 15.04,13.89 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1601/0
+
+[notice ] seekToTimeInSeconds: -11.473
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000579 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,0.83 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1608/0
+
+[notice ] seekToTimeInSeconds: 9.90585
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000456 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 20.50,14.91 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1611/0
+
+[notice ] seekToTimeInSeconds: -11.4828
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95004963 95004000 95004000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1617/0
+
+[notice ] seekToTimeInSeconds: 9.90373
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000723 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 19.86,15.16 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1619/0
+
+[notice ] seekToTimeInSeconds: -11.4708
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000007 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1625/0
+
+[notice ] seekToTimeInSeconds: 9.89881
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000010 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 17.00,14.48 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1628/0
+
+[notice ] seekToTimeInSeconds: -11.4836
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000073 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1633/0
+
+[notice ] seekToTimeInSeconds: 9.90374
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000689 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 18.45,14.31 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1636/0
+
+[notice ] seekToTimeInSeconds: -11.4633
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95001199 95001000 95001000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1641/0
+
+[notice ] seekToTimeInSeconds: 9.9021
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000685 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 106.751667
+
+[notice ] Resume 16.87,14.74 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] ofxSyncedVideoReceiver::receivePosition: setting position to:  95.1644/0
+
+[notice ] seekToTimeInSeconds: -11.4759
+[notice ] m_omx_reader Seek
+00:01:35 / 00:05:35
+[notice ] Seeked 95000557 95000000 95000000
+
+[notice ] COMXPlayer::HandleMessages - player started RESET
+[notice ] OMXVideo::Decode VDec : setStartTime 85.418333
+
+[notice ] Resume 4.58,4.07 (0,0,1,1) EOF:0 PKT:(nil)
+
+[notice ] EXITING
