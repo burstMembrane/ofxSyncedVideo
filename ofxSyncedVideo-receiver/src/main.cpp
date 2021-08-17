@@ -5,7 +5,7 @@
 int main() {
   // <-------- setup the GL context
 // Apply these GL settings for raspberry pi
-#ifdef TARGET_RASPBERRY_PI
+#ifdef USE_OMXPLAYER
   ofSetupOpenGL(1920, 1080, OF_FULLSCREEN);
   ofGLESWindowSettings settings;
   settings.setGLESVersion(2);
