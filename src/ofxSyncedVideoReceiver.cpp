@@ -91,9 +91,11 @@ void ofxSyncedVideoReceiver::receivePosition() {
     oscClient.getNextMessage(m);
     if (m.getAddress() == "/draw") {
       receiveDraw(m);
+      break;
     }
     if (m.getAddress() == "/restart" || m.getAddress() == "/isPlaying") {
       receiveTransportControls(m);
+      break;
     }
     if (m.getAddress() == "/position") {
       //  main position receiver
@@ -113,10 +115,10 @@ void ofxSyncedVideoReceiver::receivePosition() {
 
             setPosition(pos);
             lastPos = pos;
+            break;
           }
         }
       }
-      break;
     }
   }
 }

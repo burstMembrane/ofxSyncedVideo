@@ -25,7 +25,11 @@
 #   this makefile.  For instance, if you want to make changes based on whether
 #   GTK is installed, one might test that here and create a variable to check.
 ################################################################################
-# None
+
+ifdef TARGET_RASPBERRY_PI
+    PROJECT_ADDON_PATHS += $(OF_ROOT)/addons/ofxOMXPlayer
+endif
+
 
 ################################################################################
 # PROJECT EXTERNAL SOURCE PATHS
@@ -143,5 +147,5 @@ PROJECT_CFLAGS += -Wno-unknown-pragmas
 #		(default) PROJECT_CC = (blank)
 #   Note: Leave a leading space when adding list items with the += operator
 ################################################################################
-# PROJECT_CXX =
-# PROJECT_CC =
+
+
