@@ -22,6 +22,9 @@ void ofApp::setup() {
 //--------------------------------------------------------------
 void ofApp::update() {
   // allow ctrl-c to quit the app!
+    // update and sync video
+  syncSender.update();
+  syncSender.sync();
   signal(SIGINT, ofExit);
 
   while (motionClient.hasWaitingMessages()) {
@@ -41,9 +44,7 @@ void ofApp::update() {
     break;
   }
 
-  // update and sync video
-  syncSender.update();
-  syncSender.sync();
+
 }
 
 //--------------------------------------------------------------

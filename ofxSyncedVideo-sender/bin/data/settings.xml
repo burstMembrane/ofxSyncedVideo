@@ -1,7 +1,7 @@
 <settings>
 
     <drawTimeCode>1</drawTimeCode>
-    <videoPath>aione.mp4</videoPath>
+    <videoPath>aitwo.mp4</videoPath>
     <isMaster>1</isMaster>
     <host>192.168.1.255</host>
     <port>8000</port>

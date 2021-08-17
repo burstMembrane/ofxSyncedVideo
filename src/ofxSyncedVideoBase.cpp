@@ -44,16 +44,14 @@ void ofxSyncedVideoBase::drawTime() {
 }
 
 float ofxSyncedVideoBase::getPosition() {
-#ifdef TARGET_RASPBERRY_PI
-
+#ifdef USE_OMXPLAYER
   return player.getMediaTime();
-
 #else
   return player.getPosition() * player.getDuration();
 #endif
 }
 void ofxSyncedVideoBase::setPosition(float pct) {
-#ifdef TARGET_RASPBERRY_PI
+#ifdef USE_OMXPLAYER
   player.seekToTimeInSeconds(pct);
 #else
   player.setPosition(pct / videoDuration);
@@ -92,19 +90,53 @@ void ofxSyncedVideoBase::loadDirectory(string folderPath) {
     }
   }
 
-#ifdef TARGET_RASPBERRY_PI
+#ifdef USE_OMXPLAYER
   // setup OMXPlayer
   ofxOMXPlayerSettings settings;
   settings.videoPath = videoPath;
+  settings.enableTexture = false;
 
   player.setup(settings);
 
-#else
-  // setup ofVideoPlayer
-  player.load(videoPath);
-  // set the loop state to on
-  player.setLoopState(OF_LOOP_NORMAL);
+// #else
+//   // setup ofVideoPlayer
+//   player.load(videoPath);
+//   // set the loop state to on
+//   player.setLoopState(OF_LOOP_NORMAL);
 #endif
+
+#ifdef CUSTOM_PIPELINE
+
+#ifdef TARGET_RASPBERRY_PI
+ string pipeline =
+      "filesrc location=" + videoPath + " ! qtdemux ! h264parse ! v4l2h264dec capture-io-mode=4   ";
+#else
+ string pipeline =
+      "filesrc location=" + videoPath + " ! " + " decodebin ! videoconvert ";
+#endif
+ 
+
+  ofLogNotice("ofxSyncedVideoBase::loadDirectory")
+      << "using custom gst pipeline. " << pipeline;
+
+  gstPlayer = std::make_shared<ofGstVideoPlayer>();
+
+  player.setPlayer(gstPlayer);
+
+  auto gstUtils = gstPlayer->getGstVideoUtils();
+  ofLogNotice("ofxSyncedVideoBase::loadDirectory")
+      << "GstVideoUtils: " << gstUtils;
+
+  gstUtils->setPipeline(pipeline);
+  gstUtils->startPipeline();
+
+#endif
+
+
+// give her some time to warm up
+  ofSleepMillis(2000);
+
+
 
   videoDuration = getDuration();
 
@@ -115,7 +147,8 @@ void ofxSyncedVideoBase::loadDirectory(string folderPath) {
 }
 
 void ofxSyncedVideoBase::play() {
-#ifdef TARGET_RASPBERRY_PI
+#ifdef USE_OMXPLAYER
+if(player.isOpen())
   player.setPaused(false);
 #else
   player.play();
@@ -130,7 +163,7 @@ void ofxSyncedVideoBase::pause() {
 }
 
 void ofxSyncedVideoBase::restart() {
-#ifdef TARGET_RASPBERRY_PI
+#ifdef USE_OMXPLAYER
   player.restartMovie();
 #else
   player.firstFrame();
@@ -139,8 +172,8 @@ void ofxSyncedVideoBase::restart() {
 }
 float ofxSyncedVideoBase::getDuration() {
   // get the duration of the video clip
-#ifdef TARGET_RASPBERRY_PI
-  return player.getMediaTime();
+#ifdef USE_OMXPLAYER
+  return player.getDurationInSeconds();
 #else
   return player.getDuration();
 #endif
@@ -163,7 +196,8 @@ void ofxSyncedVideoBase::setMute(bool mute) {
 
 void ofxSyncedVideoBase::update() {
 // update the movie
-#ifndef TARGET_RASPBERRY_PI
+#ifndef USE_OMXPLAYER
+
   player.update();
 #endif
 }
@@ -183,7 +217,7 @@ SETTERS
 
 void ofxSyncedVideoBase::seekTo(int frame) {
 
-#ifdef TARGET_RASPBERRY_PI
+#ifdef USE_OMXPLAYER
   player.seekToFrame(frame);
 #else
   player.setFrame(frame);

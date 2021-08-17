@@ -3,10 +3,8 @@
 #include "ofxOsc.h"
 #include "ofxXmlSettings.h"
 
-#ifdef TARGET_RASPBERRY_PI
-#ifdef RPI_4
-#include "ofxRPI4VideoPlayer"
-#endif
+#ifdef USE_OMXPLAYER
+
 
 #include "ofxOMXPlayer.h"
 #endif
@@ -54,16 +52,17 @@ public:
   float syncTime;
   float videoDuration;
 
-#ifdef TARGET_RASPBERRY_PI
-#ifdef RPI_4
-  ofVideoPlayer player;
-#else
-  ofxOMXPlayer player;
-#endif
-#else
-  ofVideoPlayer player;
-#endif
+#ifdef USE_OMXPLAYER
 
+  ofxOMXPlayer player;
+
+#else
+  ofVideoPlayer player;
+#endif
+#ifdef CUSTOM_PIPELINE
+  ofGstVideoUtils gst;
+  std::shared_ptr<ofGstVideoPlayer> gstPlayer;
+#endif
   // settings
   string videoPath;
   bool isMaster;

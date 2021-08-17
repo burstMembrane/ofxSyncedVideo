@@ -1,4 +1,4 @@
 ofxOsc
 ofxSyncedVideo
 ofxXmlSettings
-
+ofxOMXPlayer

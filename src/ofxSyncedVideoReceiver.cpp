@@ -64,8 +64,8 @@ void ofxSyncedVideoReceiver::receiveDraw(ofxOscMessage m) {
     bool shouldDraw = m.getArgAsBool(0);
     ofLogNotice("ofxSyncedVideoReceiver::receiveDraw")
         << "received /draw message!!!" << shouldDraw;
-#ifdef TARGET_RASPBERRY_PI
-    player.setLayer(shouldDraw);
+#ifdef USE_OMXPLAYER
+    player.setAlpha(shouldDraw);
 #endif
     drawMovie = shouldDraw;
   }
@@ -91,9 +91,11 @@ void ofxSyncedVideoReceiver::receivePosition() {
     oscClient.getNextMessage(m);
     if (m.getAddress() == "/draw") {
       receiveDraw(m);
+      break;
     }
     if (m.getAddress() == "/restart" || m.getAddress() == "/isPlaying") {
       receiveTransportControls(m);
+      break;
     }
     if (m.getAddress() == "/position") {
       //  main position receiver
@@ -113,10 +115,11 @@ void ofxSyncedVideoReceiver::receivePosition() {
 
             setPosition(pos);
             lastPos = pos;
+              break;
           }
         }
       }
-      break;
+    
     }
   }
 }
