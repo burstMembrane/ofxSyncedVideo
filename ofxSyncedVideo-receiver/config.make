@@ -8,7 +8,7 @@
 #   The location of your root openFrameworks installation
 #       (default) OF_ROOT = ../../..
 ################################################################################
-OF_ROOT = /home/liam/openFrameworks
+# OF_ROOT = ../../..
 
 ################################################################################
 # PROJECT ROOT
@@ -37,11 +37,7 @@ OF_ROOT = /home/liam/openFrameworks
 #
 #   Note: Leave a leading space when adding list items with the += operator
 ################################################################################
-
-#ifeq ($(CROSS_COMPILING),1)
-#PROJECT_EXTERNAL_SOURCE_PATHS = $(OF_ROOT)/addons/ofxOMXPlayer/src
-#endif
-
+# PROJECT_EXTERNAL_SOURCE_PATHS =
 
 ################################################################################
 # PROJECT EXCLUSIONS
@@ -92,7 +88,7 @@ OF_ROOT = /home/liam/openFrameworks
 #
 #   Note: Leave a leading space when adding list items with the += operator
 ################################################################################
- PROJECT_DEFINES += CUSTOM_PIPELINE=1
+# PROJECT_DEFINES += CUSTOM_PIPELINE=1
 
 ################################################################################
 # PROJECT CFLAGS
@@ -109,8 +105,13 @@ OF_ROOT = /home/liam/openFrameworks
 #
 #   Note: Leave a leading space when adding list items with the += operator
 ################################################################################
-# PROJECT_CFLAGS =
-
+PROJECT_CFLAGS = -Wno-unused-but-set-variable
+PROJECT_CFLAGS += -Wno-unused-function
+PROJECT_CFLAGS += -Wno-unknown-pragmas
+#-Wunused-variable -Wunused-function -Wunknown-pragmas
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#pragma GCC diagnostic ignored "-Wunused-variable"
+#pragma GCC diagnostic ignored "-Wunused-function"
 ################################################################################
 # PROJECT OPTIMIZATION CFLAGS
 #   These are lists of CFLAGS that are target-specific.  While any flags could
@@ -144,4 +145,3 @@ OF_ROOT = /home/liam/openFrameworks
 ################################################################################
 # PROJECT_CXX =
 # PROJECT_CC =
-

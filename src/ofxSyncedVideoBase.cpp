@@ -159,7 +159,7 @@ void ofxSyncedVideoBase::restart() {
 float ofxSyncedVideoBase::getDuration() {
   // get the duration of the video clip
 #ifdef TARGET_RASPBERRY_PI
-  return player.getMediaTime();
+  return player.getDurationInSeconds();
 #else
   return player.getDuration();
 #endif
