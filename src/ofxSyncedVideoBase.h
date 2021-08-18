@@ -51,7 +51,6 @@ public:
   void getMessage(string address);
   void showFrameTime();
 
-  float syncTime;
   float videoDuration;
 
 #ifdef TARGET_RASPBERRY_PI
@@ -79,6 +78,7 @@ public:
 
   bool shouldUpdate;
   int syncType;
+  float gracePeriod;
   // settings file
   ofxXmlSettings settings;
 };

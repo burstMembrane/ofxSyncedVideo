@@ -13,7 +13,7 @@ public:
   bool receiveBoolMessage(string address);
   float receiveFloatMessage(string address);
   void receiveTransportControls(ofxOscMessage m);
-
+  void correctPosition(float pos);
   bool receiveState();
   void receiveFrame();
   void receiveDraw(ofxOscMessage m);
@@ -28,6 +28,8 @@ public:
   // settings
   float lastPos;
   int lastFrame;
+  float syncTime;
+  int timesAttemptedSync;
 
   // settings file
   ofxXmlSettings settings;

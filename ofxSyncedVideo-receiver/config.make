@@ -26,9 +26,7 @@
 #   GTK is installed, one might test that here and create a variable to check.
 ################################################################################
 
-ifdef TARGET_RASPBERRY_PI
-    PROJECT_ADDON_PATHS += $(OF_ROOT)/addons/ofxOMXPlayer
-endif
+
 
 
 ################################################################################

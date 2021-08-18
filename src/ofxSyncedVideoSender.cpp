@@ -7,6 +7,7 @@ void ::ofxSyncedVideoSender::setupOSC() {
       << "OSC Server running on " << settingsHost << ":" << settingsPort
       << "\n";
   sendMessage("/online", true);
+  sendMessage("/restart", true);
 }
 
 void ofxSyncedVideoSender::close() {

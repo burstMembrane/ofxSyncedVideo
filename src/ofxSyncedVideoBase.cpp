@@ -19,7 +19,11 @@ ofxSyncedVideoBase::ofxSyncedVideoBase(void) {
     settingsPort = settings.getValue("settings:port", 8000);
     settingsHost = settings.getValue("settings:host", "0.0.0.0");
     syncType = settings.getValue("settings:syncType", 1);
+    gracePeriod = settings.getValue("settings:gracePeriod", threshold);
     drawMovie = true;
+
+    ofLogNotice("ofxSyncedVideoBase::init")
+        << "Loading video from " << videoPath;
 
   } catch (const std::exception &e) {
     ofLogError("ofxSyncedVideoBase::init") << e.what() << '\n';
@@ -56,7 +60,7 @@ void ofxSyncedVideoBase::setPosition(float pct) {
 #ifdef TARGET_RASPBERRY_PI
   player.seekToTimeInSeconds(pct);
 #else
-  player.setPosition(pct / videoDuration);
+  player.setPosition(pct / player.getDuration());
 #endif
 }
 

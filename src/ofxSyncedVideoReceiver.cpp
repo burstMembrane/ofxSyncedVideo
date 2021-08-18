@@ -29,12 +29,11 @@ void ofxSyncedVideoReceiver::receiveTransportControls(ofxOscMessage m) {
   if (m.getAddress() == "/mute") {
     ofLogNotice("ofxSyncedVideoReceiver::receiveTransportControls")
         << "Received /mute message";
-    mute();
-  }
-  if (m.getAddress() == "/unmute") {
-    ofLogNotice("ofxSyncedVideoReceiver::receiveTransportControls")
-        << "Received /unmute message";
-    unmute();
+    bool shouldMute = m.getArgAsBool(0);
+    if (shouldMute)
+      mute();
+    else
+      unmute();
   }
 }
 
@@ -92,33 +91,49 @@ void ofxSyncedVideoReceiver::receivePosition() {
     if (m.getAddress() == "/draw") {
       receiveDraw(m);
       break;
-    }
-    if (m.getAddress() == "/restart" || m.getAddress() == "/isPlaying") {
+    } else if (m.getAddress() == "/restart" || m.getAddress() == "/isPlaying" ||
+               m.getAddress() == "/mute") {
       receiveTransportControls(m);
       break;
-    }
-    if (m.getAddress() == "/position") {
+    } else if (m.getAddress() == "/position") {
       //  main position receiver
       // simply checks whether the current position is within the threshold
       // if it isn't change to that position
       // TODO: make more sophisticated
       float pos = m.getArgAsFloat(0);
       // ofLogNotice("current position:  ") << getPosition() << "\n";
-      if (pos > 0) {
-        if (getPosition() <= pos - threshold ||
-            getPosition() >= pos + threshold) {
+      correctPosition(pos);
+      timesAttemptedSync = 0;
+      break;
+    }
+  }
+}
 
-          if (pos != lastPos) {
-            ofLogNotice("ofxSyncedVideoReceiver::receivePosition")
-                << "setting position to:  " << pos << "/" << videoDuration
-                << "\n";
+void ofxSyncedVideoReceiver::correctPosition(float pos) {
 
-            setPosition(pos);
-            lastPos = pos;
-            break;
-          }
-        }
-      }
+  float currentPos = getPosition();
+  float diff = currentPos - pos;
+  float absDiff = abs(diff);
+  float timeDiff = syncTime - ofGetElapsedTimef();
+
+  while (absDiff >= threshold && abs(timeDiff) >= threshold) {
+    ofLogNotice("ofxSyncedVideoReceiver::receivePosition")
+        << "sync difference:  " << absDiff << "\n";
+
+    ofLogNotice("ofxSyncedVideoReceiver::receivePosition")
+        << "time since last sync:  " << abs(timeDiff) << "\n";
+
+    if (player.isPlaying()) {
+      timesAttemptedSync++;
+      ofLogNotice("ofxSyncedVideoReceiver::receivePosition")
+          << "setting position to:  " << pos << "/" << videoDuration << "\n";
+      ofLogNotice("ofxSyncedVideoReceiver::receivePosition")
+          << "timesAttemptedSync:  " << timesAttemptedSync << "\n";
+      setPosition(pos);
+
+      syncTime = ofGetElapsedTimef();
+
+      break;
     }
   }
 }
