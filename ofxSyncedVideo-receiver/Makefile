@@ -2,9 +2,6 @@
 # If none is found, project defaults in config.project.make will be used.
 
 
-ifdef TARGET_RASPBERRY_PI
-	PROJECT_ADDON_PATHS += $(OF_ROOT)/addons/ofxOMXPlayer
-endif
 
 ifneq ($(wildcard config.make),)
 	include config.make
