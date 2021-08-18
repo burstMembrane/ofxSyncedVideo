@@ -140,8 +140,10 @@ void ofxSyncedVideoBase::loadDirectory(string folderPath) {
 void ofxSyncedVideoBase::play() {
 #ifdef TARGET_RASPBERRY_PI
   player.setPaused(false);
+  isPlaying = true;
 #else
   player.play();
+  isPlaying = true;
 #endif
 }
 
@@ -149,6 +151,7 @@ void ofxSyncedVideoBase::pause() {
   // pause the videoplayerts
   if (player.isPlaying()) {
     player.setPaused(true);
+    isPlaying = false;
   }
 }
 
@@ -157,7 +160,6 @@ void ofxSyncedVideoBase::restart() {
   player.restartMovie();
 #else
   player.firstFrame();
-
 #endif
 }
 float ofxSyncedVideoBase::getDuration() {

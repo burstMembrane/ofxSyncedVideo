@@ -75,6 +75,7 @@ public:
   bool drawMovie;
   int currentMovie;
   int numMovies;
+  bool isPlaying;
 
   bool shouldUpdate;
   int syncType;
