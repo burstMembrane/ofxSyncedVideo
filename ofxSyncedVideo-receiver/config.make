@@ -8,7 +8,7 @@
 #   The location of your root openFrameworks installation
 #       (default) OF_ROOT = ../../..
 ################################################################################
-# OF_ROOT = ../../..
+OF_ROOT = /home/liam/openFrameworks
 
 ################################################################################
 # PROJECT ROOT
@@ -79,7 +79,7 @@
 # add a runtime path to search for those shared libraries, since they aren't
 # incorporated directly into the final executable application binary.
 # TODO: should this be a default setting?
-# PROJECT_LDFLAGS=-Wl,-rpath=./libs
+PROJECT_LDFLAGS=-Wl,-rpath=./libs
 
 ################################################################################
 # PROJECT DEFINES
@@ -90,7 +90,7 @@
 #
 #   Note: Leave a leading space when adding list items with the += operator
 ################################################################################
-# PROJECT_DEFINES += CUSTOM_PIPELINE=1
+PROJECT_DEFINES += RPI_4
 
 ################################################################################
 # PROJECT CFLAGS
