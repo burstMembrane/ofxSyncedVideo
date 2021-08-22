@@ -1,4 +1,6 @@
-ofxOsc
 ofxSyncedVideo
-ofxXmlSettings
+#ifdef TARGET_RASPBERRY_PI
+    ofxOMXPlayer
+#endif
+
 

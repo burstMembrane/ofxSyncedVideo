@@ -251,104 +251,53 @@ obj/linuxarmv6l/Release/src/ofApp.o: \
  /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/trigonometric.hpp \
  /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/detail/setup.hpp \
  /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/detail/func_trigonometric.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/ext.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/glm.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/packing.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/detail/func_packing.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/detail/type_half.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/detail/type_half.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/integer.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/detail/func_integer.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/matrix_relational.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/matrix_relational.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../ext/vector_relational.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../ext/vector_relational.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../ext/../detail/type_float.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../ext/../detail/setup.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/quaternion_double.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/type_quat.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../ext/quaternion_relational.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../ext/quaternion_relational.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/matrix_transform.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/../ext/matrix_projection.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/../ext/matrix_projection.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/../ext/matrix_clip_space.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/../ext/matrix_clip_space.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/../ext/matrix_transform.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/../ext/matrix_transform.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/matrix_transform.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/type_quat.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../ext/quaternion_geometric.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../ext/quaternion_geometric.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/quaternion_double_precision.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/quaternion_float.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/quaternion_float_precision.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/scalar_int_sized.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/scalar_relational.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/scalar_relational.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../ext/scalar_uint_sized.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../ext/../detail/setup.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_bool1.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_bool1_precision.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_double1.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_double1_precision.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_float1.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_float1_precision.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_int1.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_int1_precision.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_uint1.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_uint1_precision.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/bitfield.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../detail/setup.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/type_precision.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/quaternion.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/../ext/quaternion_common.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/../ext/quaternion_common.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/../ext/quaternion_trigonometric.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/../ext/quaternion_trigonometric.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/../ext/quaternion_transform.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/../ext/quaternion_transform.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/quaternion.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/epsilon.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/../detail/setup.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/epsilon.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/vec1.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/type_precision.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/bitfield.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../simd/integer.h \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/color_space.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/color_space.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/integer.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/integer.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/matrix_access.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/matrix_access.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/matrix_integer.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/matrix_inverse.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/matrix_inverse.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/noise.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../detail/_noise.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/noise.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/packing.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/packing.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/random.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/random.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/reciprocal.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/reciprocal.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/round.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/round.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../ext/vector_integer.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../ext/../detail/setup.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../ext/vector_integer.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../ext/scalar_integer.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../ext/scalar_integer.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/type_ptr.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/type_ptr.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/ulp.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/ulp.inl \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../ext/scalar_ulp.hpp \
- /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../ext/scalar_ulp.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/matrix_transform.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/matrix_projection.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/matrix_projection.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/matrix_clip_space.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/matrix_clip_space.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/matrix_transform.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/matrix_transform.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/matrix_transform.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/matrix_inverse.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../detail/setup.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/matrix_inverse.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/quaternion.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/vector_relational.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/vector_relational.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../detail/type_float.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../detail/setup.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_common.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../ext/quaternion_geometric.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../ext/quaternion_geometric.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_common.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_float.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../detail/type_quat.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../detail/../ext/quaternion_relational.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../detail/../ext/quaternion_relational.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../detail/type_quat.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_float_precision.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_double.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_double_precision.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_trigonometric.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_trigonometric.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_transform.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_transform.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/quaternion.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/epsilon.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/epsilon.inl \
  /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/norm.hpp \
  /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/quaternion.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../glm.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../detail/_fixes.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../detail/setup.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../packing.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../detail/func_packing.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../detail/type_half.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../detail/setup.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../detail/type_half.inl \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../integer.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../detail/func_integer.inl \
  /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../ext/quaternion_exponential.hpp \
  /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../ext/quaternion_exponential.inl \
  /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/quaternion.inl \
@@ -372,6 +321,19 @@ obj/linuxarmv6l/Release/src/ofApp.o: \
  /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/vector_angle.inl \
  /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/scalar_multiplication.hpp \
  /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../detail/setup.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/type_ptr.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/vec1.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_bool1.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_bool1_precision.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_float1.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_float1_precision.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_double1.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_double1_precision.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_int1.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_int1_precision.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_uint1.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_uint1_precision.hpp \
+ /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/type_ptr.inl \
  /mnt/rpi4/home/pi/openFrameworks/libs/openFrameworks/math/ofMatrix3x3.h \
  /mnt/rpi4/home/pi/openFrameworks/libs/openFrameworks/math/ofMatrix4x4.h \
  /mnt/rpi4/home/pi/openFrameworks/libs/openFrameworks/math/ofQuaternion.h \
@@ -668,6 +630,7 @@ obj/linuxarmv6l/Release/src/ofApp.o: \
  /mnt/rpi4/home/pi/openFrameworks/addons/ofxSyncedVideo/src/ofxSyncedVideoBase.h \
  /mnt/rpi4/home/pi/openFrameworks/addons/ofxXmlSettings/src/ofxXmlSettings.h \
  /mnt/rpi4/home/pi/openFrameworks/addons/ofxXmlSettings/libs/tinyxml.h \
+ /mnt/rpi4/home/pi/openFrameworks/addons/ofxSyncedVideo/src/ofxRPI4VideoPlayer.h \
  /mnt/rpi4/home/pi/openFrameworks/addons/ofxOMXPlayer/src/ofxOMXPlayer.h \
  /mnt/rpi4/home/pi/openFrameworks/addons/ofxOMXPlayer/src/ofxOMXPlayerEngine.h \
  /mnt/rpi4/home/pi/openFrameworks/addons/ofxOMXPlayer/src/ofxOMXPlayerSettings.h \
@@ -1216,201 +1179,99 @@ obj/linuxarmv6l/Release/src/ofApp.o: \
 
 /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/detail/func_trigonometric.inl:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/ext.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/matrix_transform.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/glm.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/matrix_projection.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/packing.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/matrix_projection.inl:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/detail/func_packing.inl:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/matrix_clip_space.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/detail/type_half.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/matrix_clip_space.inl:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/detail/type_half.inl:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/matrix_transform.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/integer.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/matrix_transform.inl:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/detail/func_integer.inl:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/matrix_transform.inl:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/matrix_relational.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/matrix_inverse.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/matrix_relational.inl:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../detail/setup.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../ext/vector_relational.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/matrix_inverse.inl:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../ext/vector_relational.inl:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/quaternion.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../ext/../detail/type_float.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/vector_relational.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../ext/../detail/setup.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/vector_relational.inl:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/quaternion_double.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../detail/type_float.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/type_quat.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../detail/setup.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../ext/quaternion_relational.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_common.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../ext/quaternion_relational.inl:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../ext/quaternion_geometric.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/matrix_transform.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../ext/quaternion_geometric.inl:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/../ext/matrix_projection.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_common.inl:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/../ext/matrix_projection.inl:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_float.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/../ext/matrix_clip_space.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../detail/type_quat.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/../ext/matrix_clip_space.inl:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../detail/../ext/quaternion_relational.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/../ext/matrix_transform.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../detail/../ext/quaternion_relational.inl:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/../ext/matrix_transform.inl:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/../detail/type_quat.inl:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../gtc/matrix_transform.inl:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_float_precision.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/type_quat.inl:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_double.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../ext/quaternion_geometric.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_double_precision.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../detail/../ext/quaternion_geometric.inl:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_trigonometric.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/quaternion_double_precision.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_trigonometric.inl:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/quaternion_float.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_transform.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/quaternion_float_precision.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../ext/quaternion_transform.inl:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/scalar_int_sized.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/quaternion.inl:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/scalar_relational.hpp:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/epsilon.hpp:
 
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/scalar_relational.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../ext/scalar_uint_sized.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/../ext/../detail/setup.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_bool1.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_bool1_precision.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_double1.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_double1_precision.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_float1.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_float1_precision.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_int1.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_int1_precision.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_uint1.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./ext/vector_uint1_precision.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/bitfield.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../detail/setup.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/type_precision.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/quaternion.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/../ext/quaternion_common.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/../ext/quaternion_common.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/../ext/quaternion_trigonometric.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/../ext/quaternion_trigonometric.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/../ext/quaternion_transform.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/../ext/quaternion_transform.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/quaternion.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/epsilon.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/../detail/setup.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/epsilon.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../gtc/vec1.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/type_precision.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/bitfield.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../simd/integer.h:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/color_space.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/color_space.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/integer.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/integer.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/matrix_access.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/matrix_access.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/matrix_integer.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/matrix_inverse.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/matrix_inverse.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/noise.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../detail/_noise.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/noise.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/packing.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/packing.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/random.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/random.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/reciprocal.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/reciprocal.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/round.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/round.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../ext/vector_integer.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../ext/../detail/setup.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../ext/vector_integer.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../ext/scalar_integer.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../ext/scalar_integer.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/type_ptr.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/type_ptr.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/ulp.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/ulp.inl:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../ext/scalar_ulp.hpp:
-
-/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/./gtc/../ext/scalar_ulp.inl:
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/epsilon.inl:
 
 /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/norm.hpp:
 
 /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/quaternion.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../glm.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../detail/_fixes.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../detail/setup.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../packing.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../detail/func_packing.inl:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../detail/type_half.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../detail/setup.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../detail/type_half.inl:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../integer.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../detail/func_integer.inl:
 
 /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../gtx/../ext/quaternion_exponential.hpp:
 
@@ -1457,6 +1318,32 @@ obj/linuxarmv6l/Release/src/ofApp.o: \
 /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/scalar_multiplication.hpp:
 
 /mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtx/../detail/setup.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/type_ptr.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/vec1.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_bool1.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_bool1_precision.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_float1.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_float1_precision.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_double1.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_double1_precision.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_int1.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_int1_precision.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_uint1.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/../gtc/../ext/vector_uint1_precision.hpp:
+
+/mnt/rpi4/home/pi/openFrameworks/libs/glm/include/glm/gtc/type_ptr.inl:
 
 /mnt/rpi4/home/pi/openFrameworks/libs/openFrameworks/math/ofMatrix3x3.h:
 
@@ -2049,6 +1936,8 @@ obj/linuxarmv6l/Release/src/ofApp.o: \
 /mnt/rpi4/home/pi/openFrameworks/addons/ofxXmlSettings/src/ofxXmlSettings.h:
 
 /mnt/rpi4/home/pi/openFrameworks/addons/ofxXmlSettings/libs/tinyxml.h:
+
+/mnt/rpi4/home/pi/openFrameworks/addons/ofxSyncedVideo/src/ofxRPI4VideoPlayer.h:
 
 /mnt/rpi4/home/pi/openFrameworks/addons/ofxOMXPlayer/src/ofxOMXPlayer.h:
 

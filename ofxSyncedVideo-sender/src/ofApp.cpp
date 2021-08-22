@@ -9,9 +9,8 @@ void ofApp::setup() {
   ofSetWindowTitle("Sender:");
   ofSetWindowShape(1920, 1080);
   ofSetVerticalSync(false);
-
   syncSender.setupOSC();
-  syncSender.loadDirectory("movies");
+  syncSender.setup();
   syncSender.play();
   syncSender.unmute();
   ofBackground(0);

@@ -5,7 +5,7 @@
     <isMaster>1</isMaster>
     <host>192.168.1.255</host>
     <port>8000</port>
-    <threshold>10</threshold>
+    <threshold>0.5</threshold>
     <!-- Sets synctype: 1 == position, 2== frame -->
     <syncType>1</syncType>
 </settings>

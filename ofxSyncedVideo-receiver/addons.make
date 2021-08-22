@@ -1,26 +1,2 @@
-ofxOsc
-ofxXmlSettings
 ofxSyncedVideo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

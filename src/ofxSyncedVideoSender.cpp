@@ -56,14 +56,17 @@ void ofxSyncedVideoSender::sendPosition() {
 
   // send position data over OSC (only if it has changed)
   if (isPlaying) {
-    if (getPosition() != lastPos) {
-      float pos = getPosition();
-      sendMessage("/position", pos);
-      lastPos = pos;
+
+    if (ofGetElapsedTimeMillis() % 50 == 0) {
+      if (getPosition() != lastPos) {
+        float pos = getPosition();
+        sendMessage("/position", pos);
+        lastPos = pos;
+      }
     }
   } else {
     // its not playing, tell the client to pause
-    if (ofGetElapsedTimeMillis() % 500 == 0) {
+    if (fmod(ofGetElapsedTimef(), threshold) == 0) {
 
       sendMessage("/isPlaying", false);
       float pos = getPosition();

@@ -10,7 +10,7 @@ void ofApp::setup() {
   ofSetWindowTitle("Receiver");
 
   syncReceiver.setupOSC();
-  syncReceiver.loadDirectory("movies");
+  syncReceiver.setup();
   syncReceiver.play();
   syncReceiver.unmute();
   ofBackground(0);

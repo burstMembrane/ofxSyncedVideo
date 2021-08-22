@@ -4,15 +4,12 @@
 SETUP
  */
 
-ofxSyncedVideoBase::ofxSyncedVideoBase(void) {
-
-  // load xml settings if they exist
-  // get video data
+void ofxSyncedVideoBase::parseSettings() {
   try {
     settings.loadFile("settings.xml");
     string path = settings.getValue("settings:videoPath", "");
     videoPath = ofToDataPath("movies/" + path);
-    ofLogNotice("ofxSyncedVideoBase::init")
+    ofLogNotice("ofxSyncedVideoBase::parseSettings")
         << "Loading video from " << videoPath;
     isMaster = settings.getValue("settings:isMaster", false);
     threshold = settings.getValue("settings:threshold", 0.05);
@@ -20,14 +17,19 @@ ofxSyncedVideoBase::ofxSyncedVideoBase(void) {
     settingsHost = settings.getValue("settings:host", "0.0.0.0");
     syncType = settings.getValue("settings:syncType", 1);
     gracePeriod = settings.getValue("settings:gracePeriod", threshold);
-    drawMovie = true;
 
-    ofLogNotice("ofxSyncedVideoBase::init")
+    ofLogNotice("ofxSyncedVideoBase::parseSettings")
         << "Loading video from " << videoPath;
 
   } catch (const std::exception &e) {
-    ofLogError("ofxSyncedVideoBase::init") << e.what() << '\n';
+    ofLogError("ofxSyncedVideoBase::parseSettings") << e.what() << '\n';
   }
+}
+
+ofxSyncedVideoBase::ofxSyncedVideoBase(void) {
+
+  // load xml settings if they exist
+  parseSettings();
 
   // hide the cursor!
   ofHideCursor();
@@ -68,7 +70,7 @@ int ofxSyncedVideoBase::getCurrentFrame() { return player.getCurrentFrame(); }
 
 ofxSyncedVideoBase::~ofxSyncedVideoBase() {}
 
-void ofxSyncedVideoBase::loadDirectory(string folderPath) {
+string ofxSyncedVideoBase::loadDirectory(string folderPath) {
   // convert the string path to a ofDirectory
   ofDirectory moviesFolder(ofToDataPath(folderPath));
   //   populate directory
@@ -86,21 +88,31 @@ void ofxSyncedVideoBase::loadDirectory(string folderPath) {
     for (size_t i = 0; i < moviesFolder.size(); i++) {
       ofLogNotice("ofxSyncedVideoBase::loadDirectory")
           << "found movie at :" << moviesFolder.getPath(i) << endl;
-      numMovies = moviesFolder.size();
+
       ofLogNotice("ofxSyncedVideoBase::loadDirectory")
-          << "Loaded " << numMovies << " Movies" << endl;
+          << "Found " << moviesFolder.size() << " Movies" << endl;
       if (moviesFolder.getFile(i).path() == videoPath)
         ofLogNotice("ofxSyncedVideoBase::loadDirectory")
             << "found file at videoPath " << videoPath;
       videoPath = moviesFolder.getPath(i);
     }
+    return videoPath;
+  } else {
+    return videoPath;
   }
+}
+
+void ofxSyncedVideoBase::setup() {
+  if (videoPath.length() == 0)
+    videoPath = loadDirectory("movies");
 
 #ifdef TARGET_RASPBERRY_PI
   // setup OMXPlayer
   ofxOMXPlayerSettings settings;
   settings.videoPath = videoPath;
-
+  settings.enableTexture = false;
+  settings.videoWidth = 1920;
+  settings.videoHeight = 1080;
   player.setup(settings);
 
 #else

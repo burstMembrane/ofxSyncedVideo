@@ -74,10 +74,12 @@ bool ofxSyncedVideoReceiver::receiveState() {
   while (oscClient.hasWaitingMessages()) {
     ofxOscMessage m;
     oscClient.getNextMessage(m);
-    if (m.getAddress() == "/state") {
-      string state = m.getArgAsString(0);
-
-      return true ? state == "online" : false;
+    if (m.getAddress() == "/online") {
+      bool state = m.getArgAsBool(0);
+      ofLogNotice("ofxSyncedVideoReceiver::receiveState")
+          << "Received state:  " << state;
+      return state;
+      ofSleepMillis(1000);
     }
   }
   return false;
@@ -141,6 +143,7 @@ void ofxSyncedVideoReceiver::correctPosition(float pos) {
 void ofxSyncedVideoReceiver::sync() {
   // main sync function
   if (syncType == 1) {
+
     receivePosition();
   } else if (syncType == 2) {
     receiveFrame();

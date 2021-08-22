@@ -1,8 +1,8 @@
 #!/bin/bash
 
-cd SyncVideo-receiver
+cd ofxSyncedVideo-receiver
 make run &
 cd ..
-cd SyncVideo-sender
+cd ofxSyncedVideo-sender
 make run
 cd ..

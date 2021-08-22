@@ -5,7 +5,7 @@
 
 #ifdef TARGET_RASPBERRY_PI
 #ifdef RPI_4
-#include "ofxRPI4VideoPlayer"
+#include "ofxRPI4VideoPlayer.h"
 #endif
 
 #include "ofxOMXPlayer.h"
@@ -20,7 +20,9 @@ public:
   // virtuals
 
   void setMaster(bool master);
-  void loadDirectory(string folderPath);
+  string loadDirectory(string folderPath);
+  void parseSettings();
+  void setup();
   void update();
   void draw();
   void drawTimeCode();
@@ -72,12 +74,10 @@ public:
   int settingsPort;
   string settingsHost;
   float threshold;
-  bool drawMovie;
-  int currentMovie;
-  int numMovies;
+  bool drawMovie{true};
+
   bool isPlaying;
 
-  bool shouldUpdate;
   int syncType;
   float gracePeriod;
   // settings file

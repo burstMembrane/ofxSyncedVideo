@@ -19,5 +19,16 @@ meta:
 	ADDON_DESCRIPTION = Addons for syncing videos for installation
 	ADDON_AUTHOR = Liam Power
 	ADDON_TAGS = "video" "sync"
-	ADDON_URL = http://github.com/burstMembrane/SyncVideo
+	ADDON_URL = http://github.com/burstMembrane/ofxSyncedVideo
 
+common:
+
+
+
+linux64:
+	ADDON_DEPENDENCIES = ofxXmlSettings ofxOsc
+
+
+
+linuxarmv6l:
+	ADDON_DEPENDENCIES = ofxOMXPlayer ofxXmlSettings ofxOsc

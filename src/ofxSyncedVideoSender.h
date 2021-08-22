@@ -16,6 +16,7 @@ public:
   void sendMessage(string address, bool value);
   void sendMessage(string address, char value);
   void sendMessage(string address, string value);
+
   void sendFrame();
   void setupOSC();
   void close();
