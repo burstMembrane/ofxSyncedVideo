@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "ofxSyncedVideo-receiver"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.js": "javascript",
+			"*.css": "css",
+			"*.ts": "typescript",
+			"*.py": "python",
+			"*.frag": "glsl",
+			"iostream": "cpp",
+			"syncvideosender.h": "c",
+			"string": "cpp",
+			"sstream": "cpp",
+			"regex": "cpp",
+			"optional": "cpp",
+			"istream": "cpp",
+			"ostream": "cpp",
+			"ratio": "cpp",
+			"system_error": "cpp",
+			"array": "cpp",
+			"functional": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp",
+			"variant": "cpp"
+		}
+	}
+}
