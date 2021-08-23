@@ -64,7 +64,11 @@ void ofxSyncedVideoReceiver::receiveDraw(ofxOscMessage m) {
     ofLogNotice("ofxSyncedVideoReceiver::receiveDraw")
         << "received /draw message!!!" << shouldDraw;
 #ifdef TARGET_RASPBERRY_PI
-    player.setAlpha(shouldDraw);
+    int alphaVal = shouldDraw ? 255 : 0;
+    ofLogNotice("ofxSyncedVideoReceiver::receiveDraw")
+        << "setting alpha to " << alphaVal;
+    player.setAlpha(alphaVal);
+    player.setLayer(shouldDraw);
 #endif
     drawMovie = shouldDraw;
   }
@@ -104,21 +108,25 @@ void ofxSyncedVideoReceiver::receivePosition() {
       // TODO: make more sophisticated
       float pos = m.getArgAsFloat(0);
       // ofLogNotice("current position:  ") << getPosition() << "\n";
-      correctPosition(pos);
-      timesAttemptedSync = 0;
+      if (pos <= getPosition() - threshold ||
+          pos >= getPosition() + threshold &&
+              syncTime - ofGetElapsedTimef() > threshold)
+        correctPosition(pos);
+
       break;
     }
   }
 }
 
 void ofxSyncedVideoReceiver::correctPosition(float pos) {
-
+  timesAttemptedSync++;
   float currentPos = getPosition();
   float diff = currentPos - pos;
   float absDiff = abs(diff);
   float timeDiff = syncTime - ofGetElapsedTimef();
 
   while (absDiff >= threshold && abs(timeDiff) >= threshold) {
+
     ofLogNotice("ofxSyncedVideoReceiver::receivePosition")
         << "sync difference:  " << absDiff << "\n";
 
@@ -126,15 +134,19 @@ void ofxSyncedVideoReceiver::correctPosition(float pos) {
         << "time since last sync:  " << abs(timeDiff) << "\n";
 
     if (player.isPlaying()) {
-      timesAttemptedSync++;
+
       ofLogNotice("ofxSyncedVideoReceiver::receivePosition")
           << "setting position to:  " << pos << "/" << videoDuration << "\n";
       ofLogNotice("ofxSyncedVideoReceiver::receivePosition")
           << "timesAttemptedSync:  " << timesAttemptedSync << "\n";
       setPosition(pos);
-
+      // recalculate values
       syncTime = ofGetElapsedTimef();
-
+      currentPos = getPosition();
+      diff = currentPos - pos;
+      absDiff = abs(diff);
+      timeDiff = syncTime - ofGetElapsedTimef();
+      timesAttemptedSync = 0;
       break;
     }
   }
@@ -143,8 +155,8 @@ void ofxSyncedVideoReceiver::correctPosition(float pos) {
 void ofxSyncedVideoReceiver::sync() {
   // main sync function
   if (syncType == 1) {
-
-    receivePosition();
+    if (isPlaying)
+      receivePosition();
   } else if (syncType == 2) {
     receiveFrame();
   }

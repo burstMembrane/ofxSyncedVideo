@@ -20,6 +20,8 @@ void ofApp::setup() {
 void ofApp::update() {
   // allow ctrl-c to quit the app!
   signal(SIGINT, ofExit);
+  signal(SIGTERM, ofExit);
+  signal(SIGKILL, ofExit);
 
   // update and sync video
   syncReceiver.update();

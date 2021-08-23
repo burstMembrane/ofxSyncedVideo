@@ -210,8 +210,6 @@ void ofxSyncedVideoBase::draw() {
 
   if (drawMovie)
     player.draw(0, 0, ofGetWidth(), ofGetHeight());
-  else
-    ofDrawRectangle(0, 0, ofGetWidth(), ofGetHeight());
 }
 
 /*

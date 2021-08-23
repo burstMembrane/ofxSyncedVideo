@@ -34,7 +34,7 @@ public:
 
   // settings
   float threshold;
-  bool drawMovie;
+
   int lastFrame;
   float lastPos;
   bool shouldUpdate;

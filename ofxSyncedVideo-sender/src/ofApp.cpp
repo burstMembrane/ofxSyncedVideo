@@ -16,6 +16,7 @@ void ofApp::setup() {
   ofBackground(0);
   motionClient.setup(9999);
   ofLogNotice("ofApp::setup") << "Setup OSC Client on port 9999";
+  ofSetBackgroundColor(0);
 }
 
 //--------------------------------------------------------------
@@ -56,6 +57,11 @@ void ofApp::keyPressed(int key) {
   // ofLog(OF_LOG_NOTICE, "%c key pressed", key);
   switch (key) {
 
+  case 'd':
+    shouldDraw = !shouldDraw;
+    syncSender.drawMovie = shouldDraw;
+    syncSender.sendMessage("/draw", shouldDraw);
+    break;
   case 'm':
     isMuted = !isMuted;
     if (isMuted)

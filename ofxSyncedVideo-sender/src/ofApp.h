@@ -16,6 +16,7 @@ public:
 
   bool togglePause = false;
   bool isMuted;
+  bool shouldDraw;
   ofxOscReceiver motionClient;
   bool isFullScreen;
 };

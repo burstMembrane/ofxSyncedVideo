@@ -7,6 +7,8 @@ void ::ofxSyncedVideoSender::setupOSC() {
       << "OSC Server running on " << settingsHost << ":" << settingsPort
       << "\n";
   sendMessage("/online", true);
+  // wait a minute, then send restart message
+  ofSleepMillis(1000);
   sendMessage("/restart", true);
 }
 
