@@ -110,7 +110,9 @@ void ofxSyncedVideoBase::setup() {
   // setup OMXPlayer
   ofxOMXPlayerSettings settings;
   settings.videoPath = videoPath;
+#ifdef RPI_4
   settings.enableTexture = false;
+#endif
   settings.videoWidth = 1920;
   settings.videoHeight = 1080;
   player.setup(settings);

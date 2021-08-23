@@ -17,6 +17,10 @@ void ofxSyncedVideoSender::close() {
   oscServer.clear();
 }
 
+void ofxSyncedVideoSender::setup() {
+  ofxSyncedVideoBase::setup();
+  sendMessage("/restart", true);
+}
 void ofxSyncedVideoSender::sync() {
 
   switch (syncType) {

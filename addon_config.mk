@@ -31,4 +31,4 @@ linux64:
 
 
 linuxarmv6l:
-	ADDON_DEPENDENCIES = ofxOMXPlayer ofxXmlSettings ofxOsc
+	ADDON_DEPENDENCIES = ofxXmlSettings ofxOsc ofxOMXPlayer

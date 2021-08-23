@@ -19,6 +19,7 @@ public:
 
   void sendFrame();
   void setupOSC();
+  void setup();
   void close();
   void sync();
 

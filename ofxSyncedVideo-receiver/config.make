@@ -90,7 +90,7 @@ PROJECT_LDFLAGS=-Wl,-rpath=./libs
 #
 #   Note: Leave a leading space when adding list items with the += operator
 ################################################################################
-PROJECT_DEFINES += RPI_4
+#PROJECT_DEFINES += RPI_4
 
 ################################################################################
 # PROJECT CFLAGS

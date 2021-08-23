@@ -5,21 +5,23 @@ picompile(){
     CURRENTDIR=$(pwd)
 
     # run pimake
-    pimake4  &&
-    CLIENT=pifour.local
+    pimake  &&
+    CLIENT=stretchpi.local
     ping -c 1 $CLIENT
     pingResponse=$?
 
+    sleep 0.5
     if [ $pingResponse -eq 0 ];then
         APPNAME=$(basename $CURRENTDIR)"-armv6l"
-        printf 'sending bin/%s to pi...\n' "$APPNAME"
-        ssh pi@stretchpi.local 'sudo killall ' $APPNAME ||
+        printf 'sending bin/%s to pi...\n' $APPNAME
+        ssh pi@$CLIENT pkill -f $APPNAME ||
         # # scp binary to target folder
 
-        ssh pi@$CLIENT "rm /home/pi/$(APPNAME)/"
-        rsync -r bin/ pi@$CLIENT:/home/pi/$APPNAME &&
+        # ssh pi@$CLIENT "rm -rf /home/pi/$APPNAME"
+        rsync -a -P bin/ pi@$CLIENT:/home/pi/$APPNAME &&
         # # run
-        ssh pi@$CLIENT '/home/pi/$(APPNAME)/'$APPNAME
+        printf 'running $s on pi...\n' "$APPNAME"
+        ssh pi@$CLIENT /home/pi/$APPNAME/$APPNAME
     else
         echo "couldn't connect to $CLIENT"
     fi
